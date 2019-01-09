@@ -1,0 +1,14 @@
+{
+  "name": "ts",
+  "version": "1.0.0",
+  "main": "build/main/app.js",
+  "author": "Toufiq (https://twitter.com/burningraven06)",
+  "license": "MIT",
+  "scripts": {
+    "watch-ts": "tsc -w",
+    "watch-js": "nodemon build/main/app.js"
+  },
+  "devDependencies": {
+    "typescript": "^3.2.2"
+  }
+}
